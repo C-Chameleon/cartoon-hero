@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+header{
+	background-color: #5BC588;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+button {
+	background-color: #4CAF50;
+	-webkit-font-smoothing: antialiased;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-bottom: 2px solid #2875FA;
+}
+
+button:hover{
+	background-color: blue
+}
+
+header h1{
+	color: white;
+	font-size: 50px;
+
+}
+
+h1, h2{
+	font-family: 'Pacifico', cursive;
+	text-shadow: 1px 1px 5px black;
+}
+
+
+header img{
+	border-radius: 170px;
+	width: 300px;
+	border: 20px solid white
+}
+
+body img{
+	border-radius: 170px;
+	width: 300px;
+	border: 20px solid white
+}
+
+.center {
+	display; block;
+	margin-left: 200px;
+	margin-right: auto;
+	width: 30%;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px 20px 100px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 30px;
+	color: #6BAE7E;
+	text-align: center;
+}
+
+a{
+	color: green;
+}
+
+a:hover{
+	color: #483a94;
+}
+
+footer{
+	background-color: #5BC588;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.animate-me {
+	transition: all .8s ease;
+}
+
+.animate-me:hover {
+	color: #534B81;
+}
